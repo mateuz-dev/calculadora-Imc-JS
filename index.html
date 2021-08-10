@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>IMC</title>
     
 </head>
@@ -66,20 +67,20 @@
 
                 <div class="campo">
                     <label for="">Nome:</label>
-                    <input type="text">
+                    <input type="text" id="nome">
                 </div>
 
                 <div class="campo unidade" data-unidade="metros">
                     <label for="">Altura:</label>
-                    <input type="text">
+                    <input type="text" id="altura">
                 </div>
 
                 <div class="campo unidade" data-unidade="quilos">
                     <label for="">Peso:</label>
-                    <input type="text">
+                    <input type="text" id="peso">
                 </div>
 
-                <button type="button">CALCULAR</button>
+                <button type="button" id="botao">CALCULAR</button>
 
                 <div id="resultado"></div>
 
