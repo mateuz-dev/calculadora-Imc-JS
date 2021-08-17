@@ -3,15 +3,13 @@
 
 
 <head>
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <title>IMC</title>
-    
 </head>
 
 
@@ -19,12 +17,9 @@
 
     <header><h1>CALCULE SEU IMC</h1></header>
 
-
     <main>
-
         <section class="categorias">
             <table>
-
                 <thead>
                     <tr>
                         <th colspan="2">CATEGORIAS</th>
@@ -57,35 +52,31 @@
                         <td>Obesidade grau III</td>
                     </tr>
                 </tbody>
-
             </table>
         </section>
 
         <section class="calculadora">
-
             <form action="">
 
                 <div class="campo">
                     <label for="">Nome:</label>
-                    <input type="text" id="nome">
+                    <input type="text" id="nome" required>
                 </div>
 
                 <div class="campo unidade" data-unidade="metros">
                     <label for="">Altura:</label>
-                    <input type="text" id="altura">
+                    <input type="text" id="altura" required>
                 </div>
 
                 <div class="campo unidade" data-unidade="quilos">
                     <label for="">Peso:</label>
-                    <input type="text" id="peso">
+                    <input type="text" id="peso" required>
                 </div>
 
                 <button type="button" id="botao">CALCULAR</button>
 
                 <div id="resultado"></div>
-
             </form>
-
         </section>
 
     </main>

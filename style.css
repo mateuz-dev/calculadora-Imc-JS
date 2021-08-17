@@ -140,6 +140,16 @@ footer span{
     font-style: italic;
     color: white;
 }
+/*-------------------------------------------------------*/
+
+#resultado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-style: italic;
+    font-size: 1.1rem;
+}
 
 /*-------------------------------------------------------*/
 
